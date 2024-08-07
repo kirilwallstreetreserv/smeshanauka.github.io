@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Смешнявка</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <style>
+        /* Скрываем элемент <audio> */
+        audio {
+            display: none;
+        }
+    </style>
+    <div class="box">
+        <p>Обманууулл</p>
+        <div class="main-photo">
+            <img src="Mask group.png" alt="">
+
+        </div>
+        <p>Я Тебе Кохаю Кицюнечкаа😘</p>
+         <audio id="backgroundMusic" autoplay loop>
+            <source src="precious-memories(chosic.com).mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <script>
+            const audio = document.getElementById('backgroundMusic');
+            // Если нужно, можно управлять воспроизведением через JavaScript
+            // Например, запустить воспроизведение
+            audio.play();
+        </script>
+    </div>
+</body>
+</html>
